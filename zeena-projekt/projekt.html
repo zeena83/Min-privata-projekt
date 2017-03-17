@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+	<head> 
+		<!-- Basics HTML -->
+	    <meta charset="utf-8">
+		<meta name="author"  content="Zeena Bahram">
+		<meta name="description"  content="Learn web design">
+		<meta http-equiv="X-UA-Compatible" content="IE-edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="imgs/favicon.icon">
+		<!-- my Code -->
+		<title>Zeena Bahram</title>
+		<link rel="stylesheet" type="text/css" href="reset.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" href="ajax.css">
+	</head>
+	
+	<body>
+		<div id="container">
+		<!-- Main Menu -->
+		<div id="nav">
+		<nav id="menu">
+			  
+				<h3 id="logo">Zeena Bahram</h3>
+				<ul class="menu-all">
+					<li class="menu-item"><a href="#">Hem</a></li>
+					<li class="menu-item"><a href="#">CV</a></li>
+					<li class="menu-item"><a href="#">Blogg</a></li>
+					<li class="menu-item"><a href="#">Länker</a></li>
+					<li class="menu-item"><a href="#">Kontakt</a></li>
+				</ul>
+			
+		</nav>
+			<p id="demo"></p>
+		</div>
+		
+		<!-- Hero -->
+		<div id="hero">
+			
+		</div>
+		
+		<!-- About -->
+		<section id="about">
+			<h1>Frondutvecklare</h1>
+			<div><p class="about-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. An est aliquid, quod te sua sponte delectet? Quod cum dixissent, ille contra.
+Ut proverbia non nulla veriora sint quam vestra dogmata. Vos autem cum perspicuis dubia debeatis illustrare, dubiis perspicua conamini tollere. Neque enim civitas in seditione beata esse potest nec in discordia dominorum domus; Quid de Platone aut de Democrito loquar? Solum praeterea formosum, solum liberum, solum civem, stultost; Quid igitur dubitamus in tota eius natura quaerere quid sit effectum?
+Si quicquam extra virtutem habeatur in bonis. Duo Reges: constructio interrete. Indicant pueri, in quibus ut in speculis natura cernitur. Etiam beatissimum? Quam si explicavisset, non tam haesitaret; At iam decimum annum in spelunca iacet. Utrum igitur tibi litteram videor an totas paginas commovere? 
+
+
+			</p>
+			</div>
+			<button class="cta">klick här</button>
+		</section>
+		
+		<!-- TUtorials -->
+		<section id="tuts">
+			<h1>Mina kurser</h1>
+			
+		<!-- HTML&CSS -->
+			<div class="row">
+				<div class="col-3 col-left">
+				<header class="tut-header">HTML&CSS</header>
+				<img src="HTML-and-CSS-Video-Tutorial.jpg" width="460" height="280" alt="EMG">
+				<footer class="tut-footer">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. An est aliquid, quod te sua sponte delectet? Quod cum dixissent, ille contra.
+Ut proverbia non nulla veriora sint quam vestra dogmata. Vos autem cum perspicuis dubia debeatis illustrare, Democrito loquar? Solum praeterea formosum, solum liberum,annum in spelunca iacet solum civem, dubiis perspicua conamini tollere.</p>
+				</footer>
+				</div>
+		
+			</div>
+			
+			
+		<!-- javascript 1 och 2 -->
+			<div class="row">
+				<div class="col-3">
+				<header class="tut-header">JAVASCRIPT</header>
+				<img src="java.png" width="460" height="280" alt="EMG">
+				<footer class="tut-footer">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. An est aliquid, quod te sua sponte delectet? Quod cum dixissent, ille contra.
+Ut proverbia non nulla veriora sint quam vestra dogmata. Vos autem cum perspicuis dubia debeatis illustrare, Democrito loquar? Solum praeterea formosum, solum liberum,annum in spelunca iacet solum civem, dubiis perspicua conamini tollere.</p>
+				</footer>
+				</div>
+			
+			</div>
+			
+			<!-- Grafik-->
+			<div class="row">
+				<div class="col-3">
+				<header class="tut-header">GRAFIKPROGRAM</header>
+				<img src="photosh.jpg" width="460" height="280" alt="EMG">
+				<footer class="tut-footer">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. An est aliquid, quod te sua sponte delectet? Quod cum dixissent, ille contra.
+Ut proverbia non nulla veriora sint quam vestra dogmata. Vos autem cum perspicuis dubia debeatis illustrare, Democrito loquar? Solum praeterea formosum, solum liberum,annum in spelunca iacet solum civem, dubiis perspicua conamini tollere.</p>
+				</footer>
+				</div>
+			
+			</div>
+			
+				
+		
+			<button class="cta">klick här</button>
+		</section>
+		
+		<! -- youtube -->
+		<section id="youtube">
+			<h1 class="h1">Youtube video</h1>
+			<div class="row">
+				    <div class="videoframe">
+			    	<iframe class="video" src="https://www.youtube.com/embed/rJesac0_Ftw" frameborder="0" allowfullscreen></iframe>
+					</div>
+			</div>
+		</section>
+		
+		
+		<! -- Contact -->
+		<section id="contact">
+			<h1 class="h1">Contact</h1>
+			<div class="row">
+				<div class="col-2">
+					<div id='gmap_canvas' style='overflow:hidden;height:350px;width:600px;'>
+						<script type="text/javascript">function init_map()</script>
+					</div>
+				</div>
+				<div class="col-2">
+					
+			
+             <form name="htmlform" method="post" action="php/html_form_send.php">
+	           <table id="contact-form" dir="rtl">
+		         <tr><td><input type="text" name="first_name" placeholder="Name *" maxlength="50" size="30" required></td></tr>
+		         <tr><td><input type="text" name="last_name" placeholder="Efternamn *" maxlength="50" size="30" required></td></tr>
+		         <tr><td><input type="email" name="email" placeholder="Email *" maxlength="80" size="30" required></td></tr>
+		         <tr><td><input type="text" name="telephone" placeholder="Mobilnummer " maxlength="30" size="30"><br></td></tr>
+		         <tr><td><textarea name="comments" placeholder="Skicka *" maxlength="1000" cols="25" rows="6" required>
+	             </textarea></td></tr>
+	             <tr><td><input type="submit" value="Skicka"></td></tr>
+	          </table>
+            </form>
+						
+				</div>
+				
+			</div>
+		</section>
+			
+			
+		<!-- footer -->
+		<section id="wsfooter">
+			<p>Zeena Bahram</p>
+			<p> <a href="#">Mobilenumber: 0707511157</a></p>
+			<p><a href="#">Email: zeena_aywaz@yahoo.com</a></p>
+		</section>
+		
+			
+			
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	</div>	
+		<!-- SCRIPT -->
+		<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+		<script src="java.js"></script>
+	</body>
+</html>
